@@ -1,11 +1,11 @@
+import Topbar from "../../components/topbar/Topbar";
 
 function Home() {
   return (
-    <div>This is Home Page</div>
-  )
+    <div className="topbarContainer">
+      <Topbar />
+    </div>
+  );
 }
-
-
-
 
 export default Home;
